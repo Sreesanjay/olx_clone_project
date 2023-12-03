@@ -1,0 +1,13 @@
+:root{
+    --primary-background : #ffffff;
+    --secondary-background : rgb(232 234 237);
+}
+.nav-bar{
+    background-color: var(--secondary-background);
+    width: 100%;
+    position:fixed;
+    padding: 20px;
+}
+.olx-logo{
+    width: 40px;
+}
