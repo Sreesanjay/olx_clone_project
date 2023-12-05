@@ -1,0 +1,38 @@
+.user-profile{
+    background-color: white;
+    position: absolute;
+    /* top: 400%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); */
+    right: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.user-profile ul li{
+    list-style: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.user-profile ul li:hover{
+    background-color:rgba(147, 225, 241, 0.365);
+}
+ul .view-and-edit-profile{
+    background-color:black;
+    width: 100%;
+    color: white;   
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+}
+ul .view-and-edit-profile:hover{
+    background-color:rgb(229, 222, 222);
+    color: black;
+}
+.user-profile .user_details{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-profile .user_details h3{
+    margin-left: 20px;
+}

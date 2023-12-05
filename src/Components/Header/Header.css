@@ -1,8 +1,7 @@
 .headerParentDiv {
-    padding: 10px;
     background-color: whitesmoke;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 999;
   }
   
@@ -11,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 50px;
   }
   
   .placeSearch {
@@ -83,7 +83,9 @@
     display: flex;
     align-items: center;
   }
-  
+  .language-container{
+    position: relative;
+  }
   .language span {
     /* justify-content: space-between;
     align-items: center; */
@@ -105,7 +107,10 @@
     font-weight: bolder;
     margin-right: 5px;
   }
-  
+
+  .user-profile-container{
+    position: relative;
+  }
   .loginPage hr {
     margin: 0;
     background-color: black;
@@ -114,7 +119,13 @@
   
   .loginPage a{
     text-decoration: none;
+    cursor: pointer;
   }
+  .profile-img{
+    width:40px;
+    height: auto;
+  }
+
   
   .sellMenu {
     position: relative;

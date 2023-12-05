@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useContext,useState } from "react";
 import {signInWithEmailAndPassword} from "firebase/auth"
 import { FirebaseContext } from "../../store/Context";
@@ -51,7 +51,7 @@ const handleSubmit = (e) =>{
                     <br />
                     <button>Login</button>
                </form>
-               <a onClick={()=>navigate('/signup')}>Signup</a>
+               <Link to = '/signup'>Signup</Link>
           </div>
     </div>
   )

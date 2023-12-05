@@ -1,0 +1,12 @@
+.language-selector{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:10px;
+}
