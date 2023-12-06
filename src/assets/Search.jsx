@@ -6,7 +6,7 @@ export default function Search(props) {
         height="25px"
         viewBox="0 0 1024 1024"
         data-aut-id="icon"
-        color={props.color ? props.color :''}
+        color = '#ffffff'
         className
         fillRule="evenodd"
       >

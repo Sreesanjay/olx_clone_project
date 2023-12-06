@@ -1,12 +1,9 @@
 .user-profile{
     background-color: white;
     position: absolute;
-    /* top: 400%;  
-    left: 50%; 
-    transform: translate(-50%, -50%); */
     right: 1px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
+    min-width:max-content;
 }
 .user-profile ul li{
     list-style: none;

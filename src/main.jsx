@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { AuthContext, FirebaseContext } from './store/Context.js'
+import { FirebaseContext } from './store/Context.js'
 import {auth,firestore,storage} from './firebase/config.js'
 import AuthCtxt from './store/AuthCtxt.jsx'
 

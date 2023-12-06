@@ -1,8 +1,9 @@
 import { useState, useContext } from "react";
 import { FirebaseContext } from "../../store/Context";
-import { createUserWithEmailAndPassword ,updateProfile} from "firebase/auth";
+import { createUserWithEmailAndPassword ,signInWithEmailLink,updateProfile} from "firebase/auth";
 import { addDoc, collection } from "firebase/firestore";
 import { useNavigate ,Link} from 'react-router-dom';
+
 
 import OlxLogo from "/olx-logo-color.png";
 import "./SignupPage.css";
@@ -12,7 +13,10 @@ export default function SignUp() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
+
   const { auth, firestore } = useContext(FirebaseContext);
+
+
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -43,7 +47,8 @@ export default function SignUp() {
           onChange={(e) => setusername(e.target.value)}
         />
         <br />
-        <label htmlFor="fname">Email</label>
+        
+        <label htmlFor="email">Email</label>
         <br />
         <input
           className="input"

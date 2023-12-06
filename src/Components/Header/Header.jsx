@@ -50,7 +50,7 @@ function Header() {
             />
           </div>
           <div className="searchAction">
-            <Search color="#ffffff"></Search>
+            <Search></Search>
           </div>
         </div>
         <div className="language-container">

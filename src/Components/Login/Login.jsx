@@ -4,11 +4,13 @@ import {signInWithEmailAndPassword} from "firebase/auth"
 import { FirebaseContext } from "../../store/Context";
 
 import OlxLogo from "/olx-logo-color.png";
+
 export default function Login() {
+
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('') 
-const navigate = useNavigate()
 
+const navigate = useNavigate()
 const {auth} = useContext(FirebaseContext)
 
 const handleSubmit = (e) =>{
